@@ -4,7 +4,7 @@ plugins {
     id("maven-publish")
 }
 group = "com.milkcocoa.info"
-version = "0.1.3"
+version = "0.1.0"
 android {
     namespace = "com.milkcocoa.info.permission_util"
     compileSdk = 34
@@ -51,7 +51,7 @@ afterEvaluate {
             register(components.first().name, MavenPublication::class){
                 from(components.first())
                 groupId = "com.github.milkcocoa0902"
-                artifactId = "petmission_util"
+                artifactId = "permission_util"
                 version = version
             }
         }
