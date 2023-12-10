@@ -1,9 +1,9 @@
 ## Android 'M Permission' Utility
 
 ## Features
-✅ Work with Kotlin Coroutines
-✅ Get permission request result immediately(with coroutine)
-✅ Get current permission status including 'NOT asked yet' and 'DO NOT ask again'
+✅ Work with Kotlin Coroutines  
+✅ Get permission request result immediately(with coroutine)  
+✅ Get current permission status including 'NOT asked yet' and 'DO NOT ask again'  
 
 
 ## setup
@@ -77,4 +77,5 @@ CoroutineScope(Dispatchers.Main).launch {
 }
 ```
 
-Note that if you call `launch()` when already launched (means trigger button double tapped) this function throws `IllegalStateException` 
+Note that  
+if you call `launch()` when already launched (means trigger button double tapped) this function throws `IllegalStateException` 
